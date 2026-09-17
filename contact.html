@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What a concept. — Contact</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">What a concept<span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <nav class="links">
+      <a href="index.html">Games</a>
+      <a href="artworks.html">Artworks</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="wrap">
+      <h1>Let's work together.</h1>
+      <p class="lede">Open to commissions, freelance projects and full-time roles. Get in touch below.</p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2>Direct</h2>
+        <p>The fastest way to reach me is by email. I usually reply within a couple of days.</p>
+        <div class="contact-links">
+          <a href="mailto:hello@example.com">
+            <span class="label">Email</span>
+            hello@example.com
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+            <span class="label">Instagram</span>
+            @whataconcept
+          </a>
+          <a href="https://www.artstation.com/" target="_blank" rel="noopener">
+            <span class="label">ArtStation</span>
+            artstation.com/whataconcept
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> What a concept.</p>
+    <p>Concept art &amp; illustration</p>
+  </div>
+</footer>
+
+<script src="js/nav.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
