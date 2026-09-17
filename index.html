@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What a concept. — Games</title>
+<meta name="description" content="Concept art and visual development for game projects — characters, environments, props and the mood that holds them together.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">What a concept<span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <nav class="links">
+      <a href="index.html" class="active">Games</a>
+      <a href="artworks.html">Artworks</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Games</p>
+      <h1>Worlds built<br>to be played.</h1>
+      <p class="lede">Concept art and visual development for game projects — characters, environments, props and the mood that holds them together.</p>
+    </div>
+  </section>
+
+  <section class="feature-image">
+    <div class="frame">
+      <!-- Replace this placeholder with your own artwork:
+           <img src="images/game-01.jpg" alt="Concept art for [project name]"> -->
+      <p class="placeholder-label">Drop a game concept-art image here<br>(images/game-01.jpg)</p>
+    </div>
+  </section>
+
+  <section class="feature-image">
+    <div class="frame">
+      <p class="placeholder-label">images/game-02.jpg</p>
+    </div>
+  </section>
+
+  <section class="feature-image">
+    <div class="frame">
+      <p class="placeholder-label">images/game-03.jpg</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> What a concept.</p>
+    <p>Concept art &amp; illustration</p>
+  </div>
+</footer>
+
+<script src="js/nav.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
